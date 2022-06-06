@@ -1,0 +1,45 @@
+a:link{
+	color: #921AFF;
+}
+
+a:visited{
+	color: 	#8080C0;
+}
+
+a:hover{
+	color: #0072E3;
+}
+
+a:active{
+	color: 	#EA0000;
+}
+h1{
+	color: #FF987D;
+	text-align: center;
+}
+
+h2{
+	color: gray;
+	text-align: center;
+}
+h3{
+	color: #FF5809;
+	text-align: center;
+}
+ol{
+	color: gray;
+	text-align: center;	
+}
+ul{
+	color: #ECFFFF;
+	text-align: center;	
+}
+div {
+	background-color: white;
+	padding: 16px;
+	text-align: center;
+}
+div:hover{
+	background-color: #FCE1EE;
+	color: black;
+}
