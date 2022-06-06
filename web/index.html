@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>戴柏誠簡單個人簡歷</title>
+		<meta name="description" content="Loxen的個人CV簡介">
+		<meta name="keywords" content="CV簡介">
+		<meta name="author" content="109408538戴柏誠">
+		<link rel="stylesheet" href="mystyle.css">
+		<!--title部分，附上meta標籤(author)(keywords)(description)-->
+	</head>
+	<body background="background.jpg" onload="alert('Hello 你好')">
+		<h1><span style="border-bottom:5px solid black;color:red">Loxen的個人CV簡介</h1>
+		<!--h1大標題設置-->
+		<br>
+		<h2><span style="border-bottom:5px solid black;color:red">這是我的照片</h2>
+		<img src="me.jpg" style="display:block; margin:auto;" alt="This is me" width="400" height="400">
+		<!--h2副標題設置-->
+		<hr color="#4F4F4F" size="5">
+		<!--分隔線設定-->
+		<div>
+			<h2>按下按鈕以檢視我的自我介紹<h2>
+			<h3 id="click">Now loading...<h3>
+			<button type="button" onclick="myFunction1()">show My CV</button>
+		</div>
+		<script> 
+			function myFunction1() {
+					document.getElementById("click").innerHTML = "你好!我是戴柏誠，我喜歡別人叫我Loxen，我的興趣是打電動和看動漫";
+				}
+		</script>
+		<div>
+			<i><h3><span style="border-bottom:5px solid black">網站說明&要點</h3></i>
+			<ol>
+				<li>這只是我的簡單個人網站而已，想要了解更多我的資訊，請到我的github</li>
+				<li>若你覺得這個網站不夠認識我，可以去最下方的連結加我好友，認識我</li>
+			</ol>
+			<!--ol排序列表設置-->
+		</div>
+		<hr color="#4F4F4F" size="5">
+		<table border="4" width="1000" align="center">
+			<caption color="#272727"><h2>我的大學經歷</h2></caption>
+			<colgroup>
+					<col span="1" style="background-color:#A6FFA6;">
+					<col span="1" style="background-color:#C4E1FF;">	
+					<col span="1" style="background-color:#FFAAD5;">
+					<col span="1" style="background-color:#FFC78E;">
+				</colgroup>
+			<thead>
+				<tr>
+					<th>中文名稱</th><th>英文名稱</th><th>品種特徵</th><th>常見程度</th>
+				<tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>暹羅貓</td><td>Siamese cat</td><td>面部帶有大塊黑斑，姿態獨特優雅</td><td>★★★</td>
+				</tr>
+				<tr>
+					<td>英國短毛貓</td><td>British Shorthair</td><td>普遍品種為灰黑色，性格溫馴易相處</td><td>★★★★★</td>
+				</tr>
+				<tr>
+					<td>異國短毛貓</td><td>Exotic Shorthair</td><td>眼大而圓，臉頰豐滿，性情溫和且情感豐富</td><td>★★★</td>
+				</tr>
+			</tbody>
+		</table>
+		<!--個人經歷表格設置-->
+		<hr color="#4F4F4F" size="5">
+		<div>
+			<i><h3><span style="border-bottom:5px solid black">相關連結</h3></i>
+			<ul>
+				<li><i><a href="https://github.com/LoxenDai" target="_blank">我的Github個人頁面</a></i></li>
+				<li><i><a href="https://www.facebook.com/profile.php?id=100003594877965" target="_blank">我的FB個人頁面</a></i></li>
+			</ul>
+		</div>
+		<!--相關連結設置-->
+	</body>
+</html>
